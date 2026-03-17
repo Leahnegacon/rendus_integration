@@ -1,0 +1,78 @@
+:root {
+  /* Couleurs */
+  --color-primary: #458ee0;
+  --color-text: #50637e;
+  --color-text-light: #24272e;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f9fafb;
+
+  /* Espacements */
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  /* Typographie */
+  --font-base: system-ui, -apple-system, sans-serif;
+  --line-height: 1.6;
+}
+body {
+  font-family: system-ui, -apple-system, sans-serif;;
+  line-height: var(--line-height);
+  color: #10131a;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+  header { 
+  height: 4rm;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(205, 243, 230);
+  align-items: center
+}
+header nav ul {
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  gap : 2rem
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta {
+  background-color:rgb(206, 250, 255);
+  padding: 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.projets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.projets h2 {
+  grid-column: 1/-1;
+}
+.carte {
+  padding-inline: 2px;
+  background-color: #f9fafb;
+  border-radius: 2px;
+  box-shadow:#24272e 3px; 
+}
+
+@media (min-width: 1024px) {
+  .projets {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.carte{
+  padding: var(12px);
+ background-color: rgb(135, 194, 174);
+  border-radius: 12px;
+}
