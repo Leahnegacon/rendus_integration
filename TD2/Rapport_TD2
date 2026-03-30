@@ -1,33 +1,33 @@
-# Rapport — [TD2]
+# Rapport — TD2
 
 ## Points clés
 
-### 1. [Explication de mes choix pour le CSS]
+### 1.Explication de mes choix pour le CSS
 
-[Dans mon CSS, j’ai préfrée utiliser une structure simple et claire. J'ai utilisée le Grid pour organiser le site en sections. Cela a été assez compliqué
+Dans mon CSS, j’ai préfrée utiliser une structure simple et claire. J'ai utilisée le Grid pour organiser le site en sections. Cela a été assez compliqué
 c'est pour cela que le site est vraiment simple. J'ai aussi utilisée le @media queries pour que le site soit
 lisible sur ordinateur comme sur smartphone. Aussi, je n'ai pas fait un texte trop grand pour la lisibilité. J'ai utilisée des couleurs que j'aime. 
-Enfin, j’ai utilisé rem pour une accessibilité et une flexibilité maximale.]
+Enfin, j’ai utilisé rem pour une accessibilité et une flexibilité maximale.
  
 ## Utilisation de l'IA
 
 ### Démarche
 
-[Quel outil avez-vous utilisé ? (modèle, version, interface) Dans quel but : comprendre un concept,
-déboguer, générer du code, reformuler, autre ?]
+Quel outil avez-vous utilisé ? (modèle, version, interface) Dans quel but : comprendre un concept,
+déboguer, générer du code, reformuler, autre ?
 
 ### Apports et limites
 
-[Ce que l'IA vous a aidé à faire. Ce qui n'a pas fonctionné ou
-que vous avez dû corriger vous-même.]
+Ce que l'IA vous a aidé à faire. Ce qui n'a pas fonctionné ou
+que vous avez dû corriger vous-même.
 
 ### Prompts significatifs
 
-1. "[Peux-tu m'expliquer comment utiliser grid]" → [CSS Grid = système pour faire des colonnes ET des lignes
+1. "Peux-tu m'expliquer comment utiliser grid" → CSS Grid = système pour faire des colonnes ET des lignes
 
 Tu transformes un conteneur en grille avec :
 
 .container {
   display: grid;
-}/ Cela m'a été utile pour comprendre la forme et ensuite j'ai fais le jeu ce qui a été encore plus simple].
+}/ Cela m'a été utile pour comprendre la forme et ensuite j'ai fais le jeu ce qui a été encore plus simple.
 
