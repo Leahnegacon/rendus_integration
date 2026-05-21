@@ -1,14 +1,16 @@
-# Rapport — [TD1 / TP1 / etc.]
+# Rapport — TP3
 
 ## Points clés
 
-### 1. [Titre du premier point]
+### 1. Trouver les bugs
 
-[Explication en 1-2 phrases avec vos mots.]
+Cela peut paraître simple mais en réalité c'était très technique. Il a fallut analyser les scripts attentivement.
 
-### 2. [Titre du deuxième point]
+### 2. Persister des données avec localStorage
 
-[Explication en 1-2 phrases avec vos mots.]
+Cette partie là était vraiment compliqué
+
+
 ### 3. [Titre du troisième point]
 
 [Explication en 1-2 phrases avec vos mots.]
